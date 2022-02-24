@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-ache \
+RUN apk add --no-cache \
         bash          \
         httpie        \
         jq &&         \
